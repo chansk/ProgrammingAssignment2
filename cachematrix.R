@@ -49,6 +49,9 @@ cacheSolve <- function(x, ...) { # ... means we can add extra arguments
   m # Return matrix
 }  
 
+makeCacheMatrix(mat1)
+cacheSolve(mat1)
+
 # Extra version: do not use
 # cacheSolve <- function(x, ...) {
 #   m <- x$getsolve() # Pull mean from above function
