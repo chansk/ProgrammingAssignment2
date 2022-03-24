@@ -30,8 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Fxn 2: computes inverse of 
-
+## Fxn 2: computes inverse of matrix
 
 cacheSolve <- function(x, ...) { # ... means we can add extra arguments
   
@@ -50,8 +49,7 @@ cacheSolve <- function(x, ...) { # ... means we can add extra arguments
   m # Return matrix
 }  
 
-
-
+# Extra version: do not use
 # cacheSolve <- function(x, ...) {
 #   m <- x$getsolve() # Pull mean from above function
 #   if(is.null(m)) { # If m does not exist
